@@ -29,4 +29,3 @@ A Python-based Reddit scraper specifically designed for travel subreddits, inclu
 - PRAW (Python Reddit API Wrapper)
 - Pandas for data manipulation
 - uv for dependency management
-" > README.md
