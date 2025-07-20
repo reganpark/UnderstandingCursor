@@ -56,7 +56,7 @@ class RedditScraper:
     
     def scrape_subreddit(self, 
                         subreddit_name: str, 
-                        limit: int = 25, 
+                        limit: int = 100,  # Changed from 25 to 100
                         sort_type: str = 'hot',
                         include_comments: bool = True) -> Tuple[pd.DataFrame, pd.DataFrame]:
         """
@@ -171,7 +171,7 @@ class RedditScraper:
     
     def scrape_multiple_subreddits(self, 
                                   subreddits: list, 
-                                  posts_per_sub: int = 25,
+                                  posts_per_sub: int = 100,  # Changed from 25 to 100
                                   sort_type: str = 'hot',
                                   include_comments: bool = True) -> Tuple[pd.DataFrame, pd.DataFrame]:
         """
